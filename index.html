@@ -134,5 +134,66 @@
       </div>
   </section>
 
+
+  <!-- shop -->
+
+  <section id="shop">
+    <div class="container py-5">
+        <h1 class="text-center mb-4">Shop</h1>
+        
+        <!-- Filters Section -->
+        <div class="mb-4 d-flex justify-content-between">
+            <div>
+                <select class="form-select" style="width: 200px;">
+                    <option selected>Sort By</option>
+                    <option value="1">Price: Low to High</option>
+                    <option value="2">Price: High to Low</option>
+                    <option value="3">Popularity</option>
+                </select>
+            </div>
+            <div>
+                <input type="search" class="form-control" placeholder="Search products..." style="width: 300px;">
+            </div>
+        </div>
+        
+        <!-- Product Grid -->
+        <div class="row g-4">
+            <!-- Product 1 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200" alt="Product 1" class="img-fluid product-image">
+                    <div class="mt-3">
+                        <p class="product-title">Product 1</p>
+                        <p class="text-muted">₹1000</p>
+                        <button class="btn btn-primary w-100">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200" alt="Product 2" class="img-fluid product-image">
+                    <div class="mt-3">
+                        <p class="product-title">Product 2</p>
+                        <p class="text-muted">₹1500</p>
+                        <button class="btn btn-primary w-100">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+
+        <!-- Pagination -->
+        <nav aria-label="Page navigation example" class="mt-4">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+  </section>
 </body>
 </html>
